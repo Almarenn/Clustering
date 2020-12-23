@@ -1,4 +1,4 @@
-Given a file with strings, each string in a row, the program return divison to groups of the most similar strings. 
+Given a file with strings, each string in a row, and a threshold, return divison to groups of the most similar strings according to the . 
 
 1. The algorithm first calculates a matrix of levenshtein distance: for each string (which fits a row index by order) it calculates the levenshtein edit distance between this string to the rest of the strings, which represented by column index.
 2. Clustering: iterate over the strings and try to add it to an existing group (a group that already benn added to the cluestring dictionary). 
